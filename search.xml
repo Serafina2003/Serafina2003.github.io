@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>图床</title>
+      <link href="/2023/06/14/%E5%9B%BE%E5%BA%8A/"/>
+      <url>/2023/06/14/%E5%9B%BE%E5%BA%8A/</url>
+      
+        <content type="html"><![CDATA[<h2 id="图床：采用推送至GitHub仓库（每个仓库限制1G，超过要新建另一个仓库）"><a href="#图床：采用推送至GitHub仓库（每个仓库限制1G，超过要新建另一个仓库）" class="headerlink" title="图床：采用推送至GitHub仓库（每个仓库限制1G，超过要新建另一个仓库）"></a>图床：采用推送至GitHub仓库（每个仓库限制1G，超过要新建另一个仓库）</h2><p>进入个人主页，点击右上角“+”，并选择“NewReapository”创建自己的仓库（要Add a REAME file）<br><img src="https://picbed.serafina.chat/img/%E5%9B%BE%E5%BA%8A%E6%96%87%E7%AB%A0%E7%94%A8%E5%9B%BE/1.png" alt=""><br>在本地创建文件夹，名字和位置随意，这里我新建的名为pic_bed的文件夹<br><img src="https://picbed.serafina.chat/img/%E5%9B%BE%E5%BA%8A%E6%96%87%E7%AB%A0%E7%94%A8%E5%9B%BE/3.png" alt=""><br>进入文件夹后右键打开“Git Bsah”，然后输入以下代码把之前创建的仓库拷贝下来，其中“git clone”后面的东西要替换成自己的仓库信息，可以通过自己仓库的ssh链接来获取。<br><img src="https://picbed.serafina.chat/img/%E5%9B%BE%E5%BA%8A%E6%96%87%E7%AB%A0%E7%94%A8%E5%9B%BE/2.png" alt=""><br>代码如下：<br><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone 加上你取得的ssh地址 </span><br></pre></td></tr></table></figure><br>然后可以创建子文件夹用来区别存放资源，然后在带有“Readme.md”文件的那个文件夹内，右键打开Git Bash,然后依次输入以下命令把更改推送到远程仓库，最后一步不成功可能要多试几次，代码：<br><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">#将更改提交</span><br><span class="line">git add .</span><br><span class="line">git commit -m “更新图片”</span><br><span class="line">#推送至github仓库</span><br><span class="line">git push</span><br></pre></td></tr></table></figure><br>遇到报错大概率是remot，2021年就已经废除git使用密码登录GitHub的方式，<a href="https://blog.csdn.net/wxbug/article/details/126808354">解决方法</a>。</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> tags </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>第一篇文章</title>
       <link href="/2023/06/09/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
       <url>/2023/06/09/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</url>
